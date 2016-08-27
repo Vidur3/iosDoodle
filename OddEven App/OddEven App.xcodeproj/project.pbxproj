@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB6D401D1CFDB47700631468 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D401C1CFDB47700631468 /* AppDelegate.swift */; };
+		AB6D401F1CFDB47700631468 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D401E1CFDB47700631468 /* ViewController.swift */; };
+		AB6D40221CFDB47700631468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6D40201CFDB47700631468 /* Main.storyboard */; };
+		AB6D40241CFDB47700631468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6D40231CFDB47700631468 /* Assets.xcassets */; };
+		AB6D40271CFDB47700631468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6D40251CFDB47700631468 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB6D40191CFDB47700631468 /* OddEven App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OddEven App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6D401C1CFDB47700631468 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB6D401E1CFDB47700631468 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB6D40211CFDB47700631468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB6D40231CFDB47700631468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB6D40261CFDB47700631468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB6D40281CFDB47700631468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB6D40161CFDB47700631468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB6D40101CFDB47700631468 = {
+			isa = PBXGroup;
+			children = (
+				AB6D401B1CFDB47700631468 /* OddEven App */,
+				AB6D401A1CFDB47700631468 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB6D401A1CFDB47700631468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB6D40191CFDB47700631468 /* OddEven App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB6D401B1CFDB47700631468 /* OddEven App */ = {
+			isa = PBXGroup;
+			children = (
+				AB6D401C1CFDB47700631468 /* AppDelegate.swift */,
+				AB6D401E1CFDB47700631468 /* ViewController.swift */,
+				AB6D40201CFDB47700631468 /* Main.storyboard */,
+				AB6D40231CFDB47700631468 /* Assets.xcassets */,
+				AB6D40251CFDB47700631468 /* LaunchScreen.storyboard */,
+				AB6D40281CFDB47700631468 /* Info.plist */,
+			);
+			path = "OddEven App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB6D40181CFDB47700631468 /* OddEven App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6D402B1CFDB47800631468 /* Build configuration list for PBXNativeTarget "OddEven App" */;
+			buildPhases = (
+				AB6D40151CFDB47700631468 /* Sources */,
+				AB6D40161CFDB47700631468 /* Frameworks */,
+				AB6D40171CFDB47700631468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OddEven App";
+			productName = "OddEven App";
+			productReference = AB6D40191CFDB47700631468 /* OddEven App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB6D40111CFDB47700631468 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vidur Singh";
+				TargetAttributes = {
+					AB6D40181CFDB47700631468 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 93LGAXCT48;
+					};
+				};
+			};
+			buildConfigurationList = AB6D40141CFDB47700631468 /* Build configuration list for PBXProject "OddEven App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB6D40101CFDB47700631468;
+			productRefGroup = AB6D401A1CFDB47700631468 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB6D40181CFDB47700631468 /* OddEven App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB6D40171CFDB47700631468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6D40271CFDB47700631468 /* LaunchScreen.storyboard in Resources */,
+				AB6D40241CFDB47700631468 /* Assets.xcassets in Resources */,
+				AB6D40221CFDB47700631468 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB6D40151CFDB47700631468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6D401F1CFDB47700631468 /* ViewController.swift in Sources */,
+				AB6D401D1CFDB47700631468 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB6D40201CFDB47700631468 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB6D40211CFDB47700631468 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB6D40251CFDB47700631468 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB6D40261CFDB47700631468 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB6D40291CFDB47700631468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB6D402A1CFDB47700631468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB6D402C1CFDB47800631468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OddEven App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vidur.learning.OddEven-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB6D402D1CFDB47800631468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OddEven App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vidur.learning.OddEven-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB6D40141CFDB47700631468 /* Build configuration list for PBXProject "OddEven App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6D40291CFDB47700631468 /* Debug */,
+				AB6D402A1CFDB47700631468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6D402B1CFDB47800631468 /* Build configuration list for PBXNativeTarget "OddEven App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6D402C1CFDB47800631468 /* Debug */,
+				AB6D402D1CFDB47800631468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB6D40111CFDB47700631468 /* Project object */;
+}
